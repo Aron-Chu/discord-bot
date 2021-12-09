@@ -1,9 +1,6 @@
 FROM python:3
 FROM gorialis/discord.py
 
-RUN mkdir -p /usr/src/bot
-WORKDIR /usr/src/bot
-
 COPY ./app .
 
-CMD ["python3", "bot.py"]
+CMD ["python3", "welcomeBot.py"]
