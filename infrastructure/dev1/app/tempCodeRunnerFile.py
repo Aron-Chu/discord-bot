@@ -1,0 +1,1 @@
+guild.icon_url
